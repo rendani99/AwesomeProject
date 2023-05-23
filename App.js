@@ -1,11 +1,18 @@
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function App() {
   return (
-    <View>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View style={styles.container}>
+      <Text>I love CODING!</Text>
     </View>
-  );
+  )
 }
 
-
+const styles = StyleSheet.create({
+  container : {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'cente',
+    alignItems: 'cente'
+  }
+})
