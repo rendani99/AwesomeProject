@@ -13,6 +13,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flex: 1,
     justifyContent: 'cente',
-    alignItems: 'cente'
+    alignItems: 'center'
   }
 })
