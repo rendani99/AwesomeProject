@@ -1,21 +1,15 @@
-import { Text, View, StyleSheet } from 'react-native'
+import { Text, View, TextInput, Button, StyleSheet } from 'react-native'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>I love CODING!</Text>
-      <View>
-        <Text>I love coding in js </Text>
-      </View>
+    <View>
+      {/* to render input along with the button */}
+      <view>
+        <TextInput placeholder="Add Your Note Here " />
+        <Button title="Add Note" />
+      </view>
     </View>
   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    display: 'flex',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-})
+const styles = StyleSheet.create({})
